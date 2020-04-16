@@ -47,7 +47,7 @@ const LinkContainer = () => {
         },
         {
             icon: faEnvelope,
-            address: 'mailto://hi@joshspindler.dev',
+            address: 'mailto:hi@joshspindler.dev',
             key: 'env'
         }
     ];
