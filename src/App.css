@@ -7,25 +7,6 @@ body, html {
   justify-content: center;
 }
 
-@media only screen and (min-width: 500px) {
-  body, html {
-    display: flex;
-  }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 499px) {
-  .container {
-    padding-left: 20px;
-    padding-top: 20px;
-  }
-}
-
 .container {
   height: 100%;
 }
@@ -50,7 +31,6 @@ h2 {
 
 .typed-header {
   display: flex;
-  width: 500px;
 }
 
 #icon-holder * {
@@ -67,4 +47,30 @@ h2 {
 
 .icon-hyperlink:hover {
   color: lightblue;
+}
+
+@media only screen and (min-width: 500px) {
+  body, html {
+    display: flex;
+  }
+
+  .typed-header {
+    width: 500px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .typed-header {
+    width: 100%;
+  }
+
+  .container {
+    padding: 20px 20px 0;
+  }
 }
