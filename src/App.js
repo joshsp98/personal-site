@@ -37,7 +37,7 @@ const LinkContainer = () => {
     const links = [
         {
             icon: faGithub,
-            address: 'https://github.com/joshsp98',
+            address: 'https://github.com/joshspindler',
             key: 'gh'
         },
         {
