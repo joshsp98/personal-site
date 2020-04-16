@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body, html {
+  background-color: #262524;
+  color: #cacacc;
+  height: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: .8em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.container {
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 30px;
+}
+
+h2 {
+  color: #9e9fa7;
+  font-weight: 300;
+  margin: 0 0 .5em 0;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#code-start {
+  padding-right: 10px;
+}
+
+.typed-header {
+  display: flex;
+  width: 500px;
+}
+
+#icon-holder * {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.icon-hyperlink {
+  -moz-transition:color .2s ease-in;
+  -o-transition:color .2s ease-in;
+  -webkit-transition:color .2s ease-in;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-hyperlink:hover {
+  color: lightblue;
 }
