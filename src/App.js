@@ -52,7 +52,6 @@ const LinkContainer = () => {
         }
     ];
 
-
     return (
         <div id='icon-holder'>
             {
