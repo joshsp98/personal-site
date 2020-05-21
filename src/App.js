@@ -61,7 +61,8 @@ const LinkContainer = () => {
         <div id='icon-holder'>
             {
                 links.map(link => (
-                    <a key={`${link.key}-icon`} href={link.address} className='icon-hyperlink' rel='noopener noreferrer' target='_blank'>
+                    <a key={`${link.key}-icon`} href={link.address} className='icon-hyperlink' rel='noopener noreferrer'
+                       target='_blank'>
                         <FontAwesomeIcon icon={link.icon} size={'3x'}/>
                     </a>
                 ))
