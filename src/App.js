@@ -2,7 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './App.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faDev, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 const CodeDelimiter = () => <span id='code-start'>&gt;</span>;
@@ -39,6 +39,11 @@ const LinkContainer = () => {
             icon: faGithub,
             address: 'https://github.com/joshspindler',
             key: 'gh'
+        },
+        {
+            icon: faDev,
+            address: 'https://dev.to/joshspindler',
+            key: 'db'
         },
         {
             icon: faLinkedin,
